@@ -1,0 +1,18 @@
+# Dependências
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Variáveis de ambiente
+backend/.env
+
+# Build do React
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
