@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🍱 FoodLink
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Plataforma web que conecta doadores de alimentos a pessoas e instituições em situação de vulnerabilidade social, minimizando o desperdício e promovendo a segurança alimentar.
 
-## Available Scripts
+## 🎯 Objetivo
 
-In the project directory, you can run:
+O FoodLink foi desenvolvido como projeto de extensão universitária alinhado aos Objetivos de Desenvolvimento Sustentável da ONU:
 
-### `npm start`
+- **ODS 2** — Fome Zero
+- **ODS 12** — Consumo e Produção Responsáveis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Cadastro de usuários (doadores e receptores)
+- Autenticação segura com JWT
+- Cadastro de alimentos disponíveis para doação
+- Visualização e busca de doações disponíveis
+- Solicitação de doações
+- Gerenciamento de status das doações
 
-### `npm test`
+## 🛠️ Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Frontend**
 
-### `npm run build`
+- React.js
+- React Router DOM
+- Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Backend**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- Express
+- Prisma ORM
+- JWT + Bcrypt
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Banco de Dados**
 
-### `npm run eject`
+- MySQL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Como rodar o projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pré-requisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js
+- MySQL
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Backend
 
-## Learn More
+```bash
+cd backend
+npm install
+npm prisma db push
+node src/server.js
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd frontend
+npm install
+npm start
+```
 
-### Code Splitting
+## 👨‍💻 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Vinicius Soares Berardi — Centro Universitário FACENS, 2026

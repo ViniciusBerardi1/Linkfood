@@ -1,0 +1,22 @@
+{
+  "name": "foodlink",
+  "version": "1.0.0",
+  "description": "Projeto UPX V - Linkfood",
+  "scripts": {
+    "start": "concurrently \"cd backend && node src/server.js\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusBerardi1/Linkfood.git"
+  },
+  "keywords": [],
+  "author": "Vinicius Soares Berardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusBerardi1/Linkfood/issues"
+  },
+  "homepage": "https://github.com/ViniciusBerardi1/Linkfood#readme",
+  "dependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
