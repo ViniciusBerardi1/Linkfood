@@ -1,11 +1,59 @@
-# Linkfood
-Projeto UPX V - Linkfood
+# 🍱 FoodLink
 
+Plataforma web que conecta doadores de alimentos a pessoas e instituições em situação de vulnerabilidade social, minimizando o desperdício e promovendo a segurança alimentar.
 
-O Food Link é uma aplicação desenvolvida com o objetivo de conectar pessoas e comércios que possuem excedentes de alimentos a instituições e indivíduos em situação de vulnerabilidade.
+## 🎯 Objetivo
 
-O projeto está alinhado aos Objetivos de Desenvolvimento Sustentável (ODS), especialmente o ODS 2 – Fome Zero e o ODS 12 – Consumo e Produção Responsáveis, buscando reduzir o desperdício de alimentos e promover impacto social positivo.
+O FoodLink foi desenvolvido como projeto de extensão universitária alinhado aos Objetivos de Desenvolvimento Sustentável da ONU:
+- **ODS 2** — Fome Zero
+- **ODS 12** — Consumo e Produção Responsáveis
 
-Esta aplicação foi desenvolvida como parte de um projeto acadêmico, envolvendo conceitos de Programação Web e Programação Orientada a Objetos, com foco na criação de uma solução simples, acessível e escalável.
+## ✨ Funcionalidades
 
-> ⚠️ Este projeto encontra-se em desenvolvimento e pode passar por melhorias contínuas.
+- Cadastro de usuários (doadores e receptores)
+- Autenticação segura com JWT
+- Cadastro de alimentos disponíveis para doação
+- Visualização e busca de doações disponíveis
+- Solicitação de doações
+- Gerenciamento de status das doações
+
+## 🛠️ Tecnologias
+
+**Frontend**
+- React.js
+- React Router DOM
+- Axios
+
+**Backend**
+- Node.js
+- Express
+- Prisma ORM
+- JWT + Bcrypt
+
+**Banco de Dados**
+- MySQL
+
+## 🚀 Como rodar o projeto
+
+### Pré-requisitos
+- Node.js
+- MySQL
+
+### Backend
+```bash
+cd backend
+npm install
+npx prisma db push
+node src/server.js
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## 👨‍💻 Autor
+
+Vinicius Soares Berardi — Centro Universitário FACENS, 2026
